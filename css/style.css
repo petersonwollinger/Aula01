@@ -1,0 +1,27 @@
+img {
+    height: 250px;
+    width: 250px;
+}
+
+body {
+    background: linear-gradient(rgb(35, 33, 33), rgb(23, 23, 23));
+    height: 100vh;
+}
+
+.outside{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    background-color: rgb(49, 167, 49);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
